@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>CG_project_IIITP</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/delay.css" />
+  <link rel="stylesheet" href="css/stylep1.css" />
+  <!-- <link rel="stylesheet" href="css/style1.css" /> -->
+</head>
+
+<body>
+  <div class="anchors">
+    <ul></ul>
+  </div>
+
+  <main>
+    <section data-anchor="Page 1">
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+        <defs>
+          <filter id="goo">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+            <feColorMatrix in="blur" mode="matrix" values="0.4 0 1 0 1  0 1 1 1 0.3  1 0 1 0.4 0  1 0.8 0 19 -7"
+              result="goo" />
+            <feComposite in="SourceGraphic" in2="goo" operator="atop" />
+          </filter>
+        </defs>
+      </svg>
+      <canvas id="canvas1"></canvas>
+
+      <canvas id="canvas2"></canvas>
+      <article class="text">
+        <h1>Computer_Graphics _Project ( IIIT-P )</h1>
+        <h1 style="margin-top: 0px">Sem : 6</h1>
+        <h1 style="margin-top: 0px; margin-bottom: 50px">Group No.: ??</h1>
+        <pre class="language-js">
+        <code>
+      1.  Index  
+      2.  Game-1
+      3.  Game-2
+      4.  JS Audio Visualizer
+         </code>
+      
+  </pre>
+        <h1>Move the mouse across the page</h1>
+      </article>
+    </section>
+    <section data-anchor="Page 2">
+      <div class="text">
+        <canvas id="canvas"> </canvas>
+        <a href="game1.html" target="_blank" autofocus>
+          <button type="button" class="button" style="background-color: #4caf50">
+            Game-1
+          </button></a>
+        <a href="game2.html" target="_blank" autofocus><button type="button" class="button"
+            style="background-color: #0a680d">
+            Game-2
+          </button></a>
+
+        <!-- <a href="audio.html" target="_blank" autofocus -->
+        <a href="audioViz.html" target="_blank" autofocus><button type="button" class="button"
+            style="background-color: #012e03">
+            JS Audio Visualizer
+          </button></a>
+      </div>
+    </section>
+    <!-- <section data-anchor="Page 3">
+        <div class="text">
+          <div id="content">
+            <audio id="audio" controls></audio>
+
+            <input type="file" id="thefile" accept="audio/*" />
+
+            <canvas id="canvas4"></canvas>
+          </div>
+        </div>
+      </section> -->
+  </main>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/prism.min.js"></script>
+  <script src="https://unpkg.com/pageable@latest/dist/pageable.min.js"></script>
+  <script src="js/delay.js"></script>
+  <script src="js/delayp1.js"></script>
+  <!-- <script src="js/script1.js"></script> -->
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+.text {
+  -webkit-transform: scale(0.9, 0.9);
+  transform: scale(0.9, 0.9);
+  transition: all 500ms;
+}
+.pg-active .text {
+  -webkit-transform: scale(1, 1);
+  transform: scale(1, 1);
+}
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 30% 10%;
+}

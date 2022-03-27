@@ -1,0 +1,14 @@
+{
+    "name": "spotify-clone-cwh",
+    "version": "1.0.0",
+    "description": "Spotify Clone CWH ",
+    "scripts": {
+        "start": "serve"
+    },
+    "author": "Adarsh Kumar Singh",
+    "license": "ISC",
+    "homepage": "",
+    "dependencies": {
+        "serve": "^13.0.2"
+    }
+}
